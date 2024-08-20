@@ -1,25 +1,14 @@
+Resolução de exercicios - Entrada e Saída de dados
+
  Usando a linguagem de programação em C, crie um programa para os seguintes exercicios:
-a.       Programa que que exibe a mensagem “Bem vindo aos sistema”;
-b.      Programa que lê o seu nome completo, morada, telefone e exibe na tela do monitor;
-c.       Leia seu nome, apelido, telefone, ano de nascimento e escreva na tela. Calcule a sua idade e escreva na tela.
-d.      Leia dois números e calcule a soma e o produto entre eles, e a subtracção e a divisão do primeiro valor com o segundo. Escreva o resultado na tela.
-e.       Efectue a soma de dois números inteiros;
-f.       Divisão de dois números;
-g.      Calculo da média final dos alunos, tendo em conta que foram realizadas 4 testes;
-h.      Programa que que lê a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressão apenas em dias.
-i.         Programa que lê as dimensões de um retângulo (base e altura), calcular e escrever a área do retângulo. Introdução a pascal.
+a. Programa que que exibe a mensagem “Bem vindo aos sistema”;
+b. Programa que lê o seu nome completo, morada, telefone e exibe na tela do monitor;
+c. Leia seu nome, apelido, telefone, ano de nascimento e escreva na tela. Calcule a sua idade e escreva na tela.
+d. Leia dois números e calcule a soma e o produto entre eles, e a subtracção e a divisão do primeiro valor com o segundo. Escreva o resultado na tela.
+e. Efectue a soma de dois números inteiros;
+f. Divisão de dois números;
+g. Calculo da média final dos alunos, tendo em conta que foram realizadas 4 testes;
+h. Programa que que lê a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressão apenas em dias.
+i. Programa que lê as dimensões de um retângulo (base e altura), calcular e escrever a área do retângulo.
 
 
-Usando a linguagem de programação em C, crie um programa para os seguintes exercicios:
-a.       Programa que que exibe a mensagem “Bem vindo aos sistema”;
-b.      Programa que lê o seu nome completo, morada, telefone e exibe na tela do monitor;
-c.       Leia seu nome, apelido, telefone, ano de nascimento e escreva na tela. Calcule a sua idade e escreva na tela.
-d.      Leia dois números e calcule a soma e o produto entre eles, e a subtracção e a divisão do primeiro valor com o segundo. Escreva o resultado na tela.
-e.       Efectue a soma de dois números inteiros;
-f.       Divisão de dois números;
-g.      Calculo da média final dos alunos, tendo em conta que foram realizadas 4 testes;
-h.      Programa que que lê a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressão apenas em dias.
-i.         Programa que lê as dimensões de um retângulo (base e altura), calcular e escrever a área do retângulo
-
-Exercicios - Entrada e Saída de dados
-Resolução de exercicios

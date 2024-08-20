@@ -1,4 +1,4 @@
-# 🎯 Repositório Acadêmico - Licenciatura em Informática Aplicada
+# 🎯 Repositório Acadêmico
 
 Bem-vindo ao meu repositório acadêmico! Aqui você encontrará uma coleção abrangente de materiais compilados durante minha jornada na graduação em Licenciatura em Informática Aplicada.
 
@@ -16,7 +16,7 @@ O repositório é organizado da seguinte forma:
 
 ### 📚 Disciplinas Incluídas 
 
-1. **Princípios de Programação [Em C]**
+1. **Princípios de Programação - [Em C]**
 2. **Introdução à Programação Estruturada**
 
 Outras disciplinas serão adicionadas conforme o progresso no curso.
