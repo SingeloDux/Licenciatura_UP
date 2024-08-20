@@ -1,0 +1,51 @@
+1. - Quais serao os valores de saida das variaveis para Os seguintes programas? 
+
+a) int main(){ 
+int a=-4; int b=25; int c=40; 
+int d= abs(a)+ sqrt(b)- round(4.2);
+switch (c){ 
+case 40: 
+printf("D = %d", d); 
+break; 
+default: 
+printf("C = %d", c) 
+} 
+return 0; 
+} 
+
+
+b) 
+int main(){ 
+int j, k, m, n; 
+m=0; j=3; k=0; 
+for(k=1;k<j;k++){
+ m=2*k-m; } 
+printf("\n m = : %d",m); 
+return 0; 
+} 
+
+c) 
+#include <stdlib.h> 
+#include <math.h> 
+int main(){ 
+int x, z, i, b, a, c; 
+z=25; x= 3; i=1; a=6; c=4; 
+b = (z % x)- sqrt(z)+ pow(x,2); 
+printf("\n B = : %d",b); 
+while (i<=b){ x=2*i-x; 
+i=i+1; 
+} 
+printf("\n X = : %d",x);
+
+
+ if(a<b){ printf("\n Marte"); }else if (b>c) { printf("\n Terra"); }else if (b==c) { printf("\n )upter/venus"); }else{ printf("\n Mercurio"); } return 0; 
+
+
+2. iitilizando a estrutura de decisao Switch para rielecac, do genero digitado, IF para identificar o calculo conforme a idade e repeticao Do-while para validar a idade, desenvolva urn programa em C para calcular o desconto da mensalidade dos Atletas. de uma academia de ginastica cuja mensalidade basica é 1.300,00 Mt. 0 programa inicia solicitando o genero do atleta (M para Masculino e F para Feminino) e de seguida a idade. 0 ginasio aceita atletas corn idades compreendidas entre 10 aos 50. Considere o seguinte: (8,0 Vp1) • As mulheres idade igual ou inferior a 25 anos terao desconto de 25%; • Os Homens com.idade igual ou inferior a 25 anos terao desconto de 10%; • Os restantes terao desconto de 5%, 
+
+
+3. Desenvolva urn programa na linguagem C que le 6 valores inteiros digitados pelo utilizador e armazene num vector A, e de seguida, adicione todos os elementos do vector corn primeiro valor digitado e imprima o vector original e o novo vector B. (6,0 Val) 
+FIM 
+tip- Maputo4:2024 
+estudantes geraltagmad com 
+

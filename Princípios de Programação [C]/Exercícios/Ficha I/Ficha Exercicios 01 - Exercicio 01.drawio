@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2024-03-29T17:34:15.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="PiQGiw1re5mWGzZFZKjC" version="24.1.0" type="google">
+  <diagram name="Página-1" id="axTQJx1srIW-YmaYNyJ2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-1" value="Início&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="40" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="364" y="120" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-3" target="5zwwNK69YWhfWYDGKrfx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-3" value="a, b" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-1" target="5zwwNK69YWhfWYDGKrfx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-5" target="5zwwNK69YWhfWYDGKrfx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-5" target="5zwwNK69YWhfWYDGKrfx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-5" value="a &amp;gt; b" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="372" y="200" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-7" target="5zwwNK69YWhfWYDGKrfx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-7" value="dif = a - b" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-9" target="5zwwNK69YWhfWYDGKrfx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-9" value="O maior número é a" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-11" target="5zwwNK69YWhfWYDGKrfx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-11" value="A diferença do maior pelo menor é dif" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="530" y="415" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-13" target="5zwwNK69YWhfWYDGKrfx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-13" target="5zwwNK69YWhfWYDGKrfx-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-13" value="a = b" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="305" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-15" value="V" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-16" value="F" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-17" target="5zwwNK69YWhfWYDGKrfx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-17" value="dif = b - a" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-19" target="5zwwNK69YWhfWYDGKrfx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-19" value="O maior número é b" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-21" target="5zwwNK69YWhfWYDGKrfx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-21" value="Os números introduzidos sao iguais" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="364" y="310" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zwwNK69YWhfWYDGKrfx-22" target="5zwwNK69YWhfWYDGKrfx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-22" value="A diferença do maior pelo menor é dif" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="364" y="515" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-24" value="Fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="363.5" y="420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-29" value="F" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zwwNK69YWhfWYDGKrfx-30" value="V" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

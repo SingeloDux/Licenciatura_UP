@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-03-29T18:20:32.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Rmp-URVeiO767E9gjDGL" version="24.1.0" type="google">
+  <diagram name="Página-1" id="axtZqhyXb0iS_TpX6Y_e">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mccoUy5PhkNlc8I9MfwU-1" target="mccoUy5PhkNlc8I9MfwU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-1" value="Início&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mccoUy5PhkNlc8I9MfwU-2" target="mccoUy5PhkNlc8I9MfwU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="290" y="90" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mccoUy5PhkNlc8I9MfwU-4" target="mccoUy5PhkNlc8I9MfwU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-4" value="aumento = salario x 0.15" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-5" value="salario" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mccoUy5PhkNlc8I9MfwU-7" target="mccoUy5PhkNlc8I9MfwU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-7" value="nv_sal = salario + aumento" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="465" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mccoUy5PhkNlc8I9MfwU-9" target="mccoUy5PhkNlc8I9MfwU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-9" value="Exibir aumento" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="320" y="185" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mccoUy5PhkNlc8I9MfwU-11" target="mccoUy5PhkNlc8I9MfwU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-11" value="Exibir nv_sal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="160" y="185" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mccoUy5PhkNlc8I9MfwU-13" value="Fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
