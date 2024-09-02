@@ -17,7 +17,7 @@ O repositório é organizado da seguinte forma:
 ### 📚 Disciplinas Incluídas 
 
 1. **Princípios de Programação - [Em C]**
-2. **Introdução à Programação Estruturada**
+2. **Introdução à Programação Estruturada - [Em C]**
 
 Outras disciplinas serão adicionadas conforme o progresso no curso.
 
