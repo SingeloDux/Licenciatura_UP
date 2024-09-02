@@ -16,8 +16,8 @@ O repositório é organizado da seguinte forma:
 
 ### 📚 Disciplinas Incluídas 
 
-1. **Princípios de Programação - [Em C]**
-2. **Introdução à Programação Estruturada - [Em C]**
+1. [**Princípios de Programação - [Em C]**](https://github.com/SingeloDux/Licenciatura_UP/tree/main/Princ%C3%ADpios%20de%20Programa%C3%A7%C3%A3o%20%5BC%5D)
+2. [**Introdução à Programação Estruturada - [Em C]**](https://github.com/SingeloDux/Licenciatura_UP/tree/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20Estruturada%20%5B%5D)
 
 Outras disciplinas serão adicionadas conforme o progresso no curso.
 
