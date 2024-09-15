@@ -6,13 +6,16 @@ Nesta disciplina, exploramos os princípios da programação estruturada utiliza
 
 ## 📂 Conteúdo Disponível
 
-- **Exercícios**
-  - [Ficha 1: Entrada e Saída de dados em C](https://github.com/SingeloDux/Licenciatura_UP/tree/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20Estruturada%20%5B%5D/Exerc%C3%ADcios/Ficha%2001%20-%20Entrada%20e%20Saida%20de%20dados)
-  - Ficha 2: 
+### Resolução de Exercícios
+
+- **Exercícios/Ficha**
+  - [Ficha 1: Entrada e Saída de dados em C](#)
+  - [Ficha 2: x](#)
 
 - **Trabalhos**
-  - [Trabalho 01 - Estruturas de Decisão](https://github.com/SingeloDux/Licenciatura_UP/tree/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Programa%C3%A7%C3%A3o%20Estruturada%20%5B%5D/Trabalhos/Trabalho%2001%20-%20Estruturas%20de%20Decis%C3%A3o)
-
+  - [Trabalho 01 - Estruturas de Decisão](#)
+  - [Trabalho 02 - Estrutura de repetição](#)
+  
 - **Testes**
   - N/A
 
