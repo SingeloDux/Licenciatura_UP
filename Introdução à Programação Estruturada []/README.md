@@ -10,11 +10,11 @@ Nesta disciplina, exploramos os princípios da programação estruturada utiliza
 
 - **Exercícios/Ficha**
   - [Ficha 1: Entrada e Saída de dados em C](#)
-  - [Ficha 2: x](#)
+  - [Ficha 2: Estrutura de repetição](#)
 
 - **Trabalhos**
   - [Trabalho 01 - Estruturas de Decisão](#)
-  - [Trabalho 02 - Estrutura de repetição](#)
+  - [Trabalho 02 - Funções, Diretivas e Macros](#)
   
 - **Testes**
   - N/A
