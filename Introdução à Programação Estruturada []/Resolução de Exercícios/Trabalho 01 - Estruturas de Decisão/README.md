@@ -2,7 +2,7 @@
 
 ## Recursos 📚
 - [Matéria de apoio](http://sgeraldoc.blogspot.com/2020/03/estrutura-de-controle-sequencial-e-de.html)
-- [Fonte dos exercícios](http://sgeraldoc.blogspot.com/2020/03/exercicios-estruturas-de-controle.html) (Shelto)
+- [Fonte dos exercícios](http://sgeraldoc.blogspot.com/2020/03/exercicios-estruturas-de-controle.html)
 
 ## 1. Média Final e Situação do Aluno
 
