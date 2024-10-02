@@ -1,12 +1,4 @@
-# Análise e Desenho de Algoritmos
-
-## 📘 Descrição
-
-Nesta disciplina, focamos na análise teórica e prática de algoritmos, com ênfase na sua eficiência e complexidade. Exploramos técnicas para estimar o comportamento dos algoritmos de forma assintótica, ou seja, como eles se comportam com entradas grandes, e o impacto no tempo e espaço consumidos. Estudaremos também paradigmas como a **divisão e conquista**, que desempenha um papel importante na otimização de soluções para problemas computacionais.
-
-## 📂 Conteúdo Disponível
-
-### Técnicas de Pesquisa
+# Técnicas de Pesquisa 🔎
 
 A pesquisa é uma operação fundamental em estruturas de dados, e ela pode ser classificada em dois tipos principais:
 
@@ -69,24 +61,6 @@ int main() {
 ```
 
 - **Algoritmos de Busca - Linear e Binária**: Para uma explicação detalhada com exemplos em JavaScript, veja [este vídeo](https://youtu.be/KUUXv6rBCrY).
-
----
-
-## 🛠️ Paradigmas de Resolução de Problemas
-
-### Dividir para Conquistar
-
-O paradigma **Dividir para Conquistar** consiste em dividir um problema em subproblemas menores, resolvê-los individualmente e, em seguida, combinar as soluções para obter a solução do problema original.
-
-1. **Divisão**: O problema é dividido em subproblemas menores.
-2. **Conquista**: Os subproblemas são resolvidos, geralmente de forma recursiva.
-3. **Combinação**: As soluções dos subproblemas são combinadas para formar a solução completa.
-
-Este paradigma é aplicado em algoritmos famosos como:
-
-- **Merge Sort** (Ordenação por mesclagem)
-- **Quick Sort** (Ordenação rápida)
-- **Pesquisa Binária**
 
 ---
 
