@@ -1,0 +1,11 @@
+# Ignorar arquivos temporários e do sistema
+*.log
+*.tmp
+.DS_Store
+
+# Ignorar pastas especificas
+build/
+
+# Ignorar arquivos binários e grandes
+*.code-workspace
+
