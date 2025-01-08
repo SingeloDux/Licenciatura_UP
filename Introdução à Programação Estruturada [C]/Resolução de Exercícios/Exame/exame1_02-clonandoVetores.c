@@ -1,3 +1,6 @@
+/*
+Desenvolver um programa que efetue a leitura de 10 elementos de um vetor A, construir um vetor B de mesmo tipo, observando a lei de formacao: se o valor for par, o valor devera ser multiplicado por 5, sendo impar, devera ser somado com 5. Ao final, mostrar os conteudos dos dois vetores.
+*/
 #include <stdio.h>
 #include <string.h>
 
