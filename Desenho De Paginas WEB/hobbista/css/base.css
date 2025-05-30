@@ -1,0 +1,93 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fonte */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Container padrão */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #121212;
+    box-shadow: 0 0 12px rgba(255, 204, 0, 0.05);
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #333;
+}
+
+.logotipo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.logo {
+    font-size: 3em;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.slogan {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+/* Menu */
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    color: #aaa;
+    padding: 20px 0;
+    font-size: 0.9em;
+    border-top: 1px solid #333;
+    margin-top: 40px;
+}
+
+.rodape a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}

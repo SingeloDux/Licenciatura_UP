@@ -1,0 +1,64 @@
+<!--
+Desenvolva um site completo em HTML, CSS e JS com base num conceito livre definido por si 
+(ex.: portfólio pessoal, página institucional, campanha educativa, exposição artística, apresentação de projecto académico, entre outros). 
+A actividade termina com a publicação online do site num serviço de hospedagem gratuito e envio do link público ao docente.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hobbista é um guia digital feito para ajudar você a descobrir, explorar e valorizar hobbies. Acreditamos no poder das atividades criativas para melhorar o bem-estar, aliviar o estresse e conectar você com suas paixões. Seja criando, assistindo, jogando ou compartilhando, os hobbies tornam a vida mais leve e divertida.">
+    <title>Hobbista - Homepage</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <script src="js/hero.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <div class="logotipo">
+                <h1 class="logo">Hobbista ✨</h1>
+                <p class="slogan">Explore, crie, relaxe – viva seus hobbies.</p>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content-wrapper">
+            <section class="destaques">
+                <div class="slideshow">
+                    <div class="slides">
+                        <img src="img/slide01.jpg" alt="Slide 1" class="slide ativo">
+                        <img src="img/slide02.jpg" alt="Slide 2" class="slide">
+                        <img src="img/slide03.jpg" alt="Slide 3" class="slide">
+                        <img src="img/slide04.jpg" alt="Slide 4" class="slide">
+                        <img src="img/slide05.jpg" alt="Slide 5" class="slide">
+                        <img src="img/slide06.jpg" alt="Slide 6" class="slide">
+                        <img src="img/slide07.jpg" alt="Slide 7" class="slide">
+                    </div>
+                    <button class="seta esquerda">&#10094;</button>
+                    <button class="seta direita">&#10095;</button>
+                </div>
+                <aside class="curiosidades">
+                    <h1>Você sabia que? </h1>
+                    <blockquote id="frase-hobby">
+                        
+                    </blockquote>
+                    <button class="explorar">Me inspire</button>
+                </aside>
+            </section>
+        </main>
+        <footer class="rodape">
+            <p>&copy; 2025 <strong>Hobbista</strong>. Todos os direitos reservados. Desenvolvido por <a href="https://singelodux.blogspot.com" target="_blank" rel="noopener noreferrer">Eduardo Simiao Come</a></p>
+        </footer>
+    </div>
+    
+</body>
+</html>

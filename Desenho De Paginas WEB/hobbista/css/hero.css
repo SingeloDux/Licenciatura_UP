@@ -1,0 +1,101 @@
+.destaques {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.slideshow {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative; /* Adiciona posição relativa para posicionar as setas */
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+    width: 50%;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius:25%;
+    transition: background-color 0.2s;
+}
+
+.seta.esquerda { left: 15px; }
+.seta.direita  { right: 15px; }
+
+.seta:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffcc00;
+}
+
+.curiosidades {
+    flex: 1;
+    flex-direction: column;
+    height: 250px;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 2px solid #ffcc00;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.curiosidades h1 {
+    color: #ffcc00;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+frase-hobby {
+    flex-grow: 1;
+    overflow: auto;
+    margin: 0;
+    padding: 0 5px;
+    font-size: 0.95em;
+}
+
+.explorar{
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    margin-top: 30px;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
