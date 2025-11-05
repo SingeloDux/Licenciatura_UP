@@ -50,7 +50,3 @@ public class Publicacao {
         System.out.println("Ano: " + (ano == 0 ? "Não informado" : ano));
     }
 }
-1
-2
-3
-4
