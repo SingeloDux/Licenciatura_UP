@@ -10,7 +10,7 @@ public class Main {
     
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
-        gestor = new GestorContas("Minha Empresa LTDA");
+        gestor = new GestorContas("SINGELO DUX LDA");
         
         System.out.println("=== SISTEMA DE GESTÃO DE CONTAS A PAGAR/RECEBER ===");
         System.out.println("Desenvolvido com Programação Orientada a Objetos");
@@ -89,7 +89,7 @@ public class Main {
         
         String codigo = lerString("Código: ");
         String descricao = lerString("Descrição: ");
-        double valor = lerDouble("Valor: R$ ");
+        double valor = lerDouble("Valor: ");
         LocalDate vencimento = lerData("Vencimento (dd/mm/aaaa): ");
         String categoria = lerString("Categoria: ");
         
@@ -102,7 +102,7 @@ public class Main {
         
         String codigo = lerString("Código: ");
         String descricao = lerString("Descrição: ");
-        double valor = lerDouble("Valor: R$ ");
+        double valor = lerDouble("Valor: ");
         LocalDate vencimento = lerData("Vencimento (dd/mm/aaaa): ");
         String categoria = lerString("Categoria: ");
         
@@ -176,16 +176,16 @@ public class Main {
         }
     }
     
-    private static void exibirEstatisticas() {
-        System.out.println("\n=== ESTATÍSTICAS FINANCEIRAS ===");
-        System.out.println("Total de Contas: " + gestor.getContas().size());
-        System.out.println("Média por Conta: R$ " + String.format("%.2f", gestor.calcularMedia()));
-        System.out.println("Saldo Atual: R$ " + String.format("%.2f", gestor.calcularSaldo()));
-        System.out.println("Total a Pagar Pendente: R$ " + 
-            String.format("%.2f", gestor.calcularTotalPagarPendente()));
-        System.out.println("Total a Receber Pendente: R$ " + 
-            String.format("%.2f", gestor.calcularTotalReceberPendente()));
-    }
+private static void exibirEstatisticas() {
+    System.out.println("\n=== ESTATÍSTICAS FINANCEIRAS ===");
+    System.out.println("Total de Contas: " + gestor.getContas().size());
+    System.out.println("Média por Conta: " + String.format("%.2f", gestor.calcularMedia()) + " MT");
+    System.out.println("Saldo Atual: " + String.format("%.2f", gestor.calcularSaldo()) + " MT");
+    System.out.println("Total a Pagar Pendente: " + 
+        String.format("%.2f", gestor.calcularTotalPagarPendente()) + " MT");
+    System.out.println("Total a Receber Pendente: " + 
+        String.format("%.2f", gestor.calcularTotalReceberPendente()) + " MT");
+}
     
     // Métodos auxiliares para leitura de dados
     private static String lerString(String mensagem) {
@@ -233,24 +233,24 @@ public class Main {
     private static void adicionarContasExemplo() {
         // Adiciona algumas contas de exemplo para demonstração
         ContaPagar conta1 = new ContaPagar(
-            "P001", "Aluguel", 1500.00, 
-            LocalDate.of(2024, 11, 5), "Moradia"
+            "AL001", "Aluguel", 1500.00, 
+            LocalDate.of(2025, 11, 5), "Moradia"
         );
         
         ContaPagar conta2 = new ContaPagar(
-            "P002", "Energia Elétrica", 250.00, 
-            LocalDate.of(2024, 10, 20), "Moradia"
+            "LU002", "Energia Elétrica", 250.00, 
+            LocalDate.of(2025, 10, 20), "Moradia"
         );
         conta2.setObservacoes("Conta em atraso!");
         
         ContaReceber conta3 = new ContaReceber(
-            "R001", "Venda Produto A", 5000.00, 
-            LocalDate.of(2024, 11, 15), "Vendas"
+            "VD001", "Venda Produto A", 5000.00, 
+            LocalDate.of(2025, 11, 15), "Vendas"
         );
         
         ContaReceber conta4 = new ContaReceber(
-            "R002", "Serviço Consultoria", 3000.00, 
-            LocalDate.of(2024, 10, 25), "Serviços"
+            "SC002", "Serviço Consultoria", 3000.00, 
+            LocalDate.of(2025, 10, 25), "Serviços"
         );
         
         gestor.adicionarConta(conta1);

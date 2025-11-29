@@ -102,19 +102,19 @@ public class GestorContas implements Relatorio {
         System.out.println("Total de Contas: " + contas.size());
         System.out.println("Contas Pendentes: " + getContasPendentes().size());
         System.out.println("Contas Atrasadas: " + getContasAtrasadas().size());
-        System.out.println("Saldo Total: R$ " + String.format("%.2f", calcularSaldo()));
+        System.out.println("Saldo Total: " + String.format("%.2f", calcularSaldo()) + " MT");
         
         System.out.println("\n--- CONTAS A PAGAR ---");
         double totalPagar = calcularTotalPagar();
         double totalPagarPendente = calcularTotalPagarPendente();
-        System.out.println("Total a Pagar: R$ " + String.format("%.2f", totalPagar));
-        System.out.println("Pendentes: R$ " + String.format("%.2f", totalPagarPendente));
+        System.out.println("Total a Pagar: " + String.format("%.2f", totalPagar) + " MT");
+        System.out.println("Pendentes: " + String.format("%.2f", totalPagarPendente) + " MT");
         
         System.out.println("\n--- CONTAS A RECEBER ---");
         double totalReceber = calcularTotalReceber();
         double totalReceberPendente = calcularTotalReceberPendente();
-        System.out.println("Total a Receber: R$ " + String.format("%.2f", totalReceber));
-        System.out.println("Pendentes: R$ " + String.format("%.2f", totalReceberPendente));
+        System.out.println("Total a Receber: " + String.format("%.2f", totalReceber) + " MT");
+        System.out.println("Pendentes: " + String.format("%.2f", totalReceberPendente) + " MT");
         
         System.out.println("\n--- CONTAS ATRASADAS ---");
         List<Conta> atrasadas = getContasAtrasadas();

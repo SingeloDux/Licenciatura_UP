@@ -65,13 +65,13 @@ public class ContaReceber extends Conta {
         super.exibirDetalhes();
         
         if (!isPaga() && LocalDate.now().isBefore(getDataVencimento())) {
-            System.out.println("Desconto disponível: R$ " + 
-                String.format("%.2f", getValor() * descontoAntecipado));
+            System.out.println("Desconto disponível: " + 
+                String.format("%.2f", getValor() * descontoAntecipado) + " MT");
         }
-        
+
         if (isAtrasada()) {
-            System.out.println("Perda estimada por atraso: R$ " + 
-                String.format("%.2f", calcularPerdaPorAtraso()));
+            System.out.println("Perda estimada por atraso: " + 
+                String.format("%.2f", calcularPerdaPorAtraso()) + " MT");
         }
     }
 }

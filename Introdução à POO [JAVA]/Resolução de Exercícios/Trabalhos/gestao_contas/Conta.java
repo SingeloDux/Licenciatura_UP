@@ -83,7 +83,7 @@ public abstract class Conta {
     public abstract double calcularValorFinal();
     public abstract boolean isAtrasada();
     
-    // Métodos concretos
+    // Métodos concretos comuns a todas as contas
     public void pagar() {
         this.dataPagamento = LocalDate.now();
     }
@@ -104,8 +104,8 @@ public abstract class Conta {
         System.out.println("Código: " + codigo);
         System.out.println("Descrição: " + descricao);
         System.out.println("Tipo: " + getTipo());
-        System.out.println("Valor: R$ " + String.format("%.2f", valor));
-        System.out.println("Valor Final: R$ " + String.format("%.2f", calcularValorFinal()));
+        System.out.println("Valor: " + String.format("%.2f", valor) + " MT");
+        System.out.println("Valor Final: " + String.format("%.2f", calcularValorFinal()) + " MT");
         System.out.println("Categoria: " + categoria);
         System.out.println("Vencimento: " + dataVencimento.format(formatter));
         System.out.println("Status: " + (isPaga() ? "PAGA" : "PENDENTE"));

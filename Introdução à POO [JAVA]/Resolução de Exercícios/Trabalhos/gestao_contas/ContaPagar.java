@@ -78,9 +78,8 @@ public class ContaPagar extends Conta {
         super.exibirDetalhes();
         
         if (isAtrasada() && !isPaga()) {
-            System.out.println("Multa por atraso: R$ " + String.format("%.2f", getValor() * multaAtraso));
-            System.out.println("Juros totais: R$ " + String.format("%.2f", 
-                getValor() * jurosDia * getDiasAtraso()));
+            System.out.println("Multa por atraso: " + String.format("%.2f", getValor() * multaAtraso) + " MT");
+            System.out.println("Juros totais: " + String.format("%.2f", getValor() * jurosDia * getDiasAtraso()) + " MT");
         }
     }
 }

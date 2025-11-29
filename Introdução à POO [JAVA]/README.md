@@ -2,7 +2,6 @@
 
 ## 📘 Descrição
 
-
 ## 📂 Conteúdo Disponível
 
 ### Resolução de Exercícios
@@ -18,5 +17,3 @@
   - N/A
 
 ## 📝 Notas Adicionais
-
-
