@@ -13,7 +13,6 @@ public class Serie extends Conteudo {
     }
     
     /**
-     * Implementação específica para séries
      * Polimorfismo: calcula baseado em temporadas
      */
     @Override

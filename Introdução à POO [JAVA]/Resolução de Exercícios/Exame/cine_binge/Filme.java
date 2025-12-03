@@ -13,7 +13,6 @@ public class Filme extends Conteudo {
     }
     
     /**
-     * Implementação específica para filmes
      * Polimorfismo: converte minutos para horas
      */
     @Override
