@@ -2,4 +2,4 @@
 
 2.Usando a linguagem de programação em Java, crie um programa para os seguintes exercicios:
 
-C)Leia seu nome, apelido, telefone, ano de nascimento e escreva na tela. Calcule a sua idade e escreva na tela.
+d)  Leia dois números e calcule a soma e o produto entre eles, e a subtracção e a divisão do primeiro valor com o segundo. Escreva o resultado na tela.
