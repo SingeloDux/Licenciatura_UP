@@ -1,4 +1,5 @@
 
+// 2c.       Leia seu nome, apelido, telefone, ano de nascimento e escreva na tela. Calcule a sua idade e escreva na tela.
 import java.time.Year;
 import java.util.Scanner;
 
